@@ -1,0 +1,32 @@
+{
+  "name": "analyze-stock",
+  "version": "1.0.0",
+  "description": "analyze and trade stock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soonfy/analyze-stock.git"
+  },
+  "keywords": [
+    "stock"
+  ],
+  "author": "soonfy <soonfy@163.com> (https://github.com/soonfy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soonfy/analyze-stock/issues"
+  },
+  "homepage": "https://github.com/soonfy/analyze-stock#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bull": "^4.10.4",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "moment": "^2.29.4",
+    "mongoose": "^7.2.0",
+    "node-xlsx": "^0.21.2"
+  }
+}
